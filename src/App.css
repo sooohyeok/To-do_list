@@ -1,12 +1,71 @@
-.App {
-  text-align: center;
-  background-color: rgb(62, 138, 230);
-  color: white;
-  
-  font-size: 60px;
-
-  padding:60px 0;
-  
-
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
+* {
+  /* justify-content: center; */
+  align-items: center;
+  font-family: 'Pretendard-Regular';
+}
+.Outer {
+  padding-top: 30px;
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+.Scroll {
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0 auto;
+  display: flex;
+}
+.InputArea {
+  display: flex;
+  padding: 10px auto 0 auto;
+  gap: 10px;
+  /* width: 800px; */
+  height: 50px;
+  background-color: #f2b462;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Input {
+  border: 0px;
+  height: 25px;
+}
+
+.title {
+  font-family: 'twayair';
+}
+
+.Box {
+  width: 300px;
+  border: 3px solid;
+  border-radius: 10px;
+  height: 150px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Button {
+  /* color: white; */
+  border: 0px;
+  border-radius: 50px;
+  height: 30px;
+  margin: 0 10px;
+}
